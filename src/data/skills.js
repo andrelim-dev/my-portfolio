@@ -11,7 +11,7 @@ export const skillGroups = [
   {
     id: "backend",
     title: "Backend",
-    icon: "server",
+    icon: "dns",
     items: [
       { name: "Node.js", level: "BEGINNER" },
       { name: "Express.js", level: "BEGINNER" },
@@ -53,7 +53,7 @@ export const skillGroups = [
   {
     id: "tools",
     title: "tools",
-    icon: "wrench",
+    icon: "build",
     items: [
       { name: "Git", level: "INTERMEDIATE" },
       { name: "Figma", level: "INTERMEDIATE" },

@@ -16,7 +16,7 @@ export default function Navbar() {
           className="font-display text-headline-md font-bold tracking-tighter text-on-surface"
           href="#hero"
         >
-          ALEX.DEV
+          ANDRE.DEV
         </a>
 
         <div className="hidden md:flex items-center gap-10">
