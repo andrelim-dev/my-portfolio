@@ -45,7 +45,7 @@ export default function Navbar() {
             aria-label="Toggle color theme"
             className="flex items-center p-2 text-on-surface-variant hover:text-on-surface transition-colors active:scale-95 duration-200"
           >
-            <Icon name={theme === "light" ? "light_mode" : "dark_mode"} />
+            <Icon name={theme === "light" ? "dark_mode" : "light_mode"} />
           </button>
           <a
             className="px-6 py-2.5 bg-on-background text-background font-bold rounded-lg hover:opacity-80 transition-opacity active:scale-95 duration-200 font-label-sm text-label-sm"

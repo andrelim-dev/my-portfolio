@@ -27,7 +27,7 @@ export default function About() {
         </Reveal>
 
         <Reveal delay={200} className="space-y-6">
-          <div className="glass-card p-8 rounded-xl bento-inner-glow bg-white">
+          <div className="glass-card p-8 rounded-xl bento-inner-glow bg-surface-container-lowest">
             <div className="flex items-center gap-3 text-primary mb-4">
               <Icon name="construction" />
               <span className="font-label-sm text-label-sm uppercase">
@@ -45,7 +45,7 @@ export default function About() {
               </li>
               <li className="flex justify-between items-center">
                 <span className="font-headline-md text-body-md text-on-background">
-                  ILKC Website
+                  IKLC Website
                 </span>
                 <span className="text-on-surface-variant text-label-sm font-label-sm">
                   MVP Phase
@@ -54,7 +54,7 @@ export default function About() {
             </ul>
           </div>
 
-          <div className="glass-card p-8 rounded-xl bento-inner-glow bg-white">
+          <div className="glass-card p-8 rounded-xl bento-inner-glow bg-surface-container-lowest">
             <div className="flex items-center gap-3 text-primary mb-4">
               <Icon name="diamond" />
               <span className="font-label-sm text-label-sm uppercase">

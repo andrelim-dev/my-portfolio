@@ -2,7 +2,7 @@ import Icon from "./Icon.jsx";
 
 export default function SkillCard({ title, icon, items }) {
   return (
-    <div className="glass-card p-8 rounded-xl border border-outline-variant/30 flex flex-col justify-between hover:bg-surface-container-low transition-all cursor-default bg-white">
+    <div className="glass-card p-8 rounded-xl border border-outline-variant/30 flex flex-col justify-between hover:bg-surface-container-low transition-all cursor-default bg-surface-container-lowest">
       <div>
         <Icon name={icon} className="text-primary mb-6" />
         <h3 className="font-headline-md text-headline-md mb-6 text-on-background">
