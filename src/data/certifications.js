@@ -14,6 +14,13 @@ export const certifications = [
     href: "https://www.dicoding.com/certificates/QLZ99VNY7Z5D",
   },
   {
+    id: "machine-learning-fundamentals",
+    icon: "psychology_alt",
+    title: "Machine Learning Fundamentals",
+    issuer: "Dicoding Indonesia",
+    href: "https://www.dicoding.com/certificates/L4PQ9GWQ2PO1",
+  },
+  {
     id: "expert-react-web-developer",
     icon: "web",
     title: "Expert React Web Developer",
@@ -26,5 +33,26 @@ export const certifications = [
     title: "React Web Application Fundamentals",
     issuer: "Dicoding Indonesia",
     href: "https://www.dicoding.com/certificates/98XWEK34WXM3",
+  },
+  {
+    id: "building-web-applications-with-react",
+    icon: "deployed_code",
+    title: "Building Web Applications with React",
+    issuer: "Dicoding Indonesia",
+    href: "https://www.dicoding.com/certificates/6RPNYEJJ9Z2M",
+  },
+  {
+    id: "frontend-web-development",
+    icon: "responsive_layout",
+    title: "Front-End Web Development",
+    issuer: "Dicoding Indonesia",
+    href: "https://www.dicoding.com/certificates/81P246LQNZOY",
+  },
+  {
+    id: "web-programming-fundamentals",
+    icon: "language",
+    title: "Web Programming Fundamentals",
+    issuer: "Dicoding Indonesia",
+    href: "https://www.dicoding.com/certificates/NVP74Y8WGPR0",
   },
 ];
