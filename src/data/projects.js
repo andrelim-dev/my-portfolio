@@ -13,7 +13,7 @@ export const secondaryProject = {
   description:
     "A modern organizational website designed to showcase IKLC's profile, structure, gallery, and practicums while improving digital communication and information accessibility.",
   stack: "REACT / TAILWIND CSS",
-  image: "/images/iklc_website",
+  image: "/images/iklc_website.jpg",
   alt: "Homepage interface of the IKLC organizational website.",
 };
 
