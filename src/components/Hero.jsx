@@ -59,9 +59,9 @@ export default function Hero() {
         >
           <div className="relative w-80 h-105 rounded-3xl overflow-hidden z-10 border border-outline-variant/50 shadow-xl bg-white">
             <img
-              className="w-full h-full object-cover grayscale brightness-110"
-              alt="A professional studio portrait of a young male software engineer with a minimalist aesthetic."
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmxfodWjZ55L7m03Ro9fwQOFThy1cUvqHQXDH0D3PKj64-HtyC3E5kmM1gO6X6aSYseIgN5lTvxqJBAOXyXSHB1touDn-oqfqYVaTiHHbfvOPiVxT28Nc-yvGPD0iOadObrj43iMXmsV6uKrcnEZD6sUI-UnRKy6acsFsq87UeZUPbzzkuzT-VZcDdEAkGOHGnx_QzmxJbqO5JAvPVVZMALMWFeGzMHtPw2FiybiRHphH_Dtkr6dGMpwZNCvbP8l2bQtLKtHnUPQw"
+              className="w-full h-full object-cover"
+              alt="My profile photo"
+              src="/images/profile.jpg"
             />
           </div>
           <div className="absolute inset-0 -z-10 scale-125 opacity-20 blur-3xl bg-primary" />
