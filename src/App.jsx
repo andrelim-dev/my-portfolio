@@ -1,5 +1,15 @@
-function App() {
-  return <h1 className="font-headline-lg text-display">Hello World!</h1>;
-}
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero.jsx";
+import TechMarquee from "./components/TechMarquee.jsx";
 
-export default App;
+export default function App() {
+  return (
+    <>
+      <Navbar />
+      <main className="relative z-10 pt-20">
+        <Hero />
+        <TechMarquee />
+      </main>
+    </>
+  );
+}
