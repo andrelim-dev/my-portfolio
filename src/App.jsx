@@ -9,6 +9,7 @@ import Projects from "./components/Projects.jsx";
 import ExperienceEducation from "./components/ExperienceEducation.jsx";
 import Certifications from "./components/Certifications.jsx";
 import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 
 export default function App() {
   // Attaches the IntersectionObserver once at the app root so every
@@ -28,6 +29,7 @@ export default function App() {
         <Certifications />
         <Contact />
       </main>
+      <Footer />
     </>
   );
 }
