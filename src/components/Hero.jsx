@@ -28,7 +28,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-4 mb-16">
             <a
               className="px-8 py-4 bg-on-background text-background font-bold rounded-lg hover:opacity-90 transition-all active:scale-95 font-label-sm text-label-sm"
-              href="#work"
+              href="#project"
             >
               View Projects
             </a>

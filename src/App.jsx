@@ -6,6 +6,7 @@ import TechMarquee from "./components/TechMarquee.jsx";
 import About from "./components/About.jsx";
 import SkillsGrid from "./components/SkillsGrid.jsx";
 import Projects from "./components/Projects.jsx";
+import ExperienceEducation from "./components/ExperienceEducation.jsx";
 
 export default function App() {
   // Attaches the IntersectionObserver once at the app root so every
@@ -21,6 +22,7 @@ export default function App() {
         <About />
         <SkillsGrid />
         <Projects />
+        <ExperienceEducation />
       </main>
     </>
   );

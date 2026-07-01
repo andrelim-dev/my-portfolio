@@ -1,7 +1,7 @@
 export const experience = [
   {
     id: "external-code-reviewer",
-    period: "2026 - Present",
+    period: "Mar 2026 - Present",
     role: "External Code Reviewer",
     org: "Dicoding Indonesia",
     description:

@@ -43,7 +43,7 @@ export default function Navbar() {
             type="button"
             onClick={toggleTheme}
             aria-label="Toggle color theme"
-            className="p-2 text-on-surface-variant hover:text-on-surface transition-colors active:scale-95 duration-200"
+            className="flex items-center p-2 text-on-surface-variant hover:text-on-surface transition-colors active:scale-95 duration-200"
           >
             <Icon name={theme === "light" ? "light_mode" : "dark_mode"} />
           </button>
