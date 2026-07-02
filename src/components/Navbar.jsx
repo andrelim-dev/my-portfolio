@@ -33,7 +33,7 @@ export default function Navbar({ theme, toggleTheme }) {
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl border-b border-outline-variant/30">
+    <nav className="fixed top-0 w-screen z-50 bg-surface/80 backdrop-blur-xl border-b border-outline-variant/30">
       <div className="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto h-20">
         <a
           className="font-display text-headline-md font-bold tracking-tighter text-on-surface"
