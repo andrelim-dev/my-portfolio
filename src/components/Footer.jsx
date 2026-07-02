@@ -1,10 +1,10 @@
 import Icon from "./Icon.jsx";
 
 const socials = [
-  { platform: "GitHub", link: "https://github.com/andrelim-dev" },
+  { platform: "GitHub", url: "https://github.com/andrelim-dev" },
   {
     platform: "LinkedIn",
-    link: "https://www.linkedin.com/in/andre-lim-28a246285/",
+    url: "https://www.linkedin.com/in/andre-lim-28a246285/",
   },
 ];
 
@@ -16,9 +16,9 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-full py-20 border-t border-outline-variant/20 bg-surface-dim mt-20">
-      <div className="flex flex-col md:flex-row justify-between items-center w-full px-margin-desktop max-w-container-max mx-auto gap-gutter">
-        <div className="flex flex-col items-center md:items-start gap-4">
+    <footer className="w-screen py-12 md:py-20 border-t border-outline-variant/20 bg-surface-dim mt-20">
+      <div className="flex flex-col md:flex-row justify-between items-center w-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto gap-8 md:gap-gutter text-center md:text-left">
+        <div className="flex flex-col items-center md:items-start gap-3 md:gap-4">
           <a
             className="font-display text-headline-md font-bold text-on-surface"
             href="#hero"
@@ -31,11 +31,11 @@ export default function Footer() {
           </p>
         </div>
 
-        <div className="flex gap-10">
+        <div className="flex flex-wrap justify-center gap-6 md:gap-10 order-2">
           {socials.map((social) => (
             <a
               key={social.platform}
-              href={social.link}
+              href={social.url}
               target="_blank"
               rel="noopener noreferrer"
               className="text-on-surface-variant hover:text-on-background transition-colors font-label-sm text-label-sm"
@@ -49,7 +49,7 @@ export default function Footer() {
           type="button"
           onClick={scrollToTop}
           aria-label="Scroll to top"
-          className="w-12 h-12 rounded-full border border-outline-variant/30 flex items-center justify-center hover:bg-surface-container transition-colors text-on-background"
+          className="order-3 w-11 h-11 md:w-12 md:h-12 shrink-0 rounded-full border border-outline-variant/30 flex items-center justify-center hover:bg-surface-container transition-colors text-on-background"
         >
           <Icon name="arrow_upward" />
         </button>
