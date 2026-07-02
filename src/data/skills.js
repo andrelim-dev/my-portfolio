@@ -4,8 +4,10 @@ export const skillGroups = [
     title: "Frontend",
     icon: "web",
     items: [
+      { name: "HTML5", level: "ADVANCED" },
       { name: "React", level: "ADVANCED" },
-      { name: "Tailwind CSS", level: "INTERMEDIATE" },
+      { name: "Tailwind CSS", level: "ADVANCED" },
+      { name: "CSS3", level: "INTERMEDIATE" },
     ],
   },
   {
@@ -13,6 +15,7 @@ export const skillGroups = [
     title: "Backend",
     icon: "dns",
     items: [
+      { name: "PHP", level: "BEGINNER" },
       { name: "Node.js", level: "BEGINNER" },
       { name: "Express.js", level: "BEGINNER" },
       { name: "Python / Flask", level: "BEGINNER" },
