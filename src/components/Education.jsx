@@ -5,10 +5,10 @@ import TimelineDot from "./TimelineDot.jsx";
 export default function Education() {
   return (
     <Reveal as="div" delay={200}>
-      <h2 className="font-display text-headline-lg mb-16 text-on-background">
+      <h2 className="font-display text-headline-md sm:text-headline-lg mb-10 sm:mb-12 lg:mb-16 text-on-background">
         Education
       </h2>
-      <div className="relative pl-8 border-l-2 border-outline-variant/50 space-y-16">
+      <div className="relative pl-6 sm:pl-8 border-l-2 border-outline-variant/50 space-y-10 sm:space-y-12 lg:space-y-16">
         {education.map((entry) => (
           <div key={entry.id} className="relative">
             <TimelineDot current={entry.current} />
@@ -19,14 +19,14 @@ export default function Education() {
             >
               {entry.period}
             </span>
-            <h3 className="font-headline-md text-headline-md mb-1 text-on-background">
+            <h3 className="font-headline-md text-headline-sm sm:text-headline-md mb-1 text-on-background">
               {entry.title}
             </h3>
             <p className="text-on-surface-variant font-body-md italic">
               {entry.org}
             </p>
             {entry.tags.length > 0 && (
-              <div className="flex flex-wrap gap-2 mt-4">
+              <div className="flex flex-wrap gap-2 mt-3 sm:mt-4">
                 {entry.tags.map((tag) => (
                   <span
                     key={tag}

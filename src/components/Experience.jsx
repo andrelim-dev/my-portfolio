@@ -5,10 +5,10 @@ import TimelineDot from "./TimelineDot.jsx";
 export default function Experience() {
   return (
     <Reveal as="div">
-      <h2 className="font-display text-headline-lg mb-16 text-on-background">
+      <h2 className="font-display text-headline-md sm:text-headline-lg mb-10 sm:mb-12 lg:mb-16 text-on-background">
         Professional Journey
       </h2>
-      <div className="relative pl-8 border-l-2 border-outline-variant/50 space-y-16">
+      <div className="relative pl-6 sm:pl-8 border-l-2 border-outline-variant/50 space-y-10 sm:space-y-12 lg:space-y-16">
         {experience.map((role) => (
           <div key={role.id} className="relative">
             <TimelineDot current={role.current} />
@@ -19,10 +19,10 @@ export default function Experience() {
             >
               {role.period}
             </span>
-            <h3 className="font-headline-md text-headline-md mb-1 text-on-background">
+            <h3 className="font-headline-md text-headline-sm sm:text-headline-md mb-1 text-on-background">
               {role.role}
             </h3>
-            <p className="text-on-surface-variant font-body-md mb-4 italic">
+            <p className="text-on-surface-variant font-body-md mb-3 sm:mb-4 italic">
               {role.org}
             </p>
             <p className="text-on-surface-variant font-body-md">

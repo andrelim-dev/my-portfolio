@@ -5,9 +5,9 @@ export default function ExperienceEducation() {
   return (
     <section
       id="journey"
-      className="py-32 px-margin-desktop max-w-container-max mx-auto"
+      className="py-20 sm:py-24 lg:py-32 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto"
     >
-      <div className="grid lg:grid-cols-2 gap-24">
+      <div className="grid lg:grid-cols-2 gap-16 sm:gap-20 lg:gap-24">
         <Experience />
         <Education />
       </div>
