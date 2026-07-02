@@ -1,4 +1,6 @@
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 import {
   FloatingLabelInput,
   FloatingLabelTextarea,
@@ -8,17 +10,40 @@ const initialState = { name: "", email: "", subject: "", message: "" };
 
 export default function ContactForm() {
   const [form, setForm] = useState(initialState);
-  const [status, setStatus] = useState("idle"); // idle | sent
+  const [loading, setLoading] = useState(false);
+  // const [status, setStatus] = useState("idle"); // idle | sent
 
   const handleChange = (field) => (event) => {
     setForm((prev) => ({ ...prev, [field]: event.target.value }));
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    // Wire this up to form backend / API route of choice.
-    setStatus("sent");
-    setForm(initialState);
+
+    setLoading(true);
+
+    try {
+      await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        {
+          name: form.name,
+          email: form.email,
+          subject: form.subject,
+          message: form.message,
+        },
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+      );
+
+      toast.success("Message sent successfully!");
+
+      // setStatus("sent");
+      setForm(initialState);
+    } catch (error) {
+      toast.error("Failed to send message.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -53,9 +78,11 @@ export default function ContactForm() {
       />
       <button
         type="submit"
+        disabled={loading}
         className="w-full py-5 bg-on-background text-background font-bold rounded-lg hover:opacity-90 active:scale-95 transition-all font-label-sm text-label-sm"
       >
-        {status === "sent" ? "MESSAGE SENT" : "SEND MESSAGE"}
+        {/* {status === "sent" ? "MESSAGE SENT" : "SEND MESSAGE"} */}
+        {loading ? "SENDING..." : "SEND MESSAGE"}
       </button>
     </form>
   );
