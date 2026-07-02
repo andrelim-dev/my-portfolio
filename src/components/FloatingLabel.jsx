@@ -16,7 +16,7 @@ export function FloatingLabelInput({
         onChange={onChange}
         required={required}
         placeholder=" "
-        className="peer w-full bg-transparent border-0 border-b border-outline-variant py-4 focus:ring-0 focus:border-on-background transition-colors text-on-background"
+        className="peer w-full bg-transparent border-0 border-b border-outline-variant py-4 focus:rounded-sm focus:outline-2 focus:outline-on-background focus:ring-0 focus:border-on-background transition-colors text-on-background"
       />
       <label
         htmlFor={id}
@@ -45,7 +45,7 @@ export function FloatingLabelTextarea({
         onChange={onChange}
         required={required}
         placeholder=" "
-        className="peer w-full bg-transparent border-0 border-b border-outline-variant py-4 focus:ring-0 focus:border-on-background transition-colors resize-none text-on-background"
+        className="peer w-full bg-transparent border-0 border-b border-outline-variant py-4 focus:rounded-sm focus:outline-2 focus:outline-on-background focus:ring-0 focus:border-on-background transition-colors resize-none text-on-background"
       />
       <label
         htmlFor={id}
