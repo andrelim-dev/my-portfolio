@@ -34,9 +34,12 @@ export default function Hero() {
             </a>
             <a
               className="px-8 py-4 border border-outline text-on-surface font-bold rounded-lg hover:bg-surface-variant/20 transition-all active:scale-95 font-label-sm text-label-sm"
-              href="#"
+              href="/CV_Andre.pdf"
+              download="CV_Andre.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Download Resume
+              Download CV
             </a>
           </div>
           <div className="grid grid-cols-3 gap-8">

@@ -49,9 +49,12 @@ export default function Navbar() {
           </button>
           <a
             className="px-6 py-2.5 bg-on-background text-background font-bold rounded-lg hover:opacity-80 transition-opacity active:scale-95 duration-200 font-label-sm text-label-sm"
-            href="#"
+            href="/CV_Andre.pdf"
+            download="CV_Andre.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Resume
+            CV
           </a>
         </div>
       </div>
