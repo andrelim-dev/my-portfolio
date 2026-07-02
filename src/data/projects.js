@@ -6,6 +6,7 @@ export const featuredProject = {
   stack: ["REACT", "EXPRESS.JS", "FLASK", "TENSORFLOW", "HUGGING FACE"],
   image: "/images/fira.jpg",
   alt: "Financial dashboard of the FIRA website.",
+  url: "https://github.com/janicetjuarsa/FIRA",
 };
 
 export const secondaryProject = {
@@ -15,6 +16,7 @@ export const secondaryProject = {
   stack: "REACT / TAILWIND CSS",
   image: "/images/iklc_website.jpg",
   alt: "Homepage interface of the IKLC organizational website.",
+  url: "https://www.iklc.or.id/",
 };
 
 export const otherProjects = [
@@ -25,6 +27,7 @@ export const otherProjects = [
     description:
       "A React-based game discussion forum that enables users to discover, review, and discuss their favorite games.",
     stack: "REACT / TAILWIND CSS",
+    url: "https://github.com/AndreLim25/game-hub",
   },
   {
     id: "inventa",
@@ -33,6 +36,7 @@ export const otherProjects = [
     description:
       "A web-based inventory management system for managing products, suppliers, transactions, and reports.",
     stack: "JAVA",
+    url: "https://github.com/andrelim-dev/inventa",
   },
   {
     id: "fittrack",
@@ -41,5 +45,6 @@ export const otherProjects = [
     description:
       "A Flutter-based fitness application that helps users plan workouts, track progress, and stay motivated through personalized fitness features.",
     stack: "FLUTTER / FIREBASE",
+    url: "https://github.com/PriadiCuanda-231401058/FitTrack",
   },
 ];

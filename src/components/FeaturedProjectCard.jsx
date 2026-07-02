@@ -39,13 +39,16 @@ export default function FeaturedProjectCard({ project }) {
                 </span>
               ))}
             </div>
-            <button
-              type="button"
+            {/* Will be updated to project detail page */}
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 group/btn text-on-background cursor-pointer hover:mr-2 transition-all"
             >
               <span className="font-label-sm text-label-sm">VIEW DETAILS</span>
               <Icon name="arrow_forward" className="text-sm" />
-            </button>
+            </a>
           </div>
         </div>
       </div>

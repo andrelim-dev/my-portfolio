@@ -17,13 +17,16 @@ export default function ProjectCard({ project }) {
           <span className="text-label-sm font-label-sm text-on-surface-variant">
             {project.stack}
           </span>
-          <button
-            type="button"
+          {/* Will be updated to project detail page */}
+          <a
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label={`Open ${project.title}`}
             className="flex items-center p-2 border border-outline-variant/30 rounded-full hover:bg-on-background hover:text-background transition-colors text-on-background cursor-pointer"
           >
             <Icon name="open_in_new" />
-          </button>
+          </a>
         </div>
       </div>
     </div>
