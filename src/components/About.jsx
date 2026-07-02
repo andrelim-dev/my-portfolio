@@ -5,11 +5,11 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-32 px-margin-desktop max-w-container-max mx-auto"
+      className="py-20 sm:py-24 lg:py-32 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto"
     >
-      <div className="grid lg:grid-cols-2 gap-20">
-        <Reveal>
-          <h2 className="font-display text-headline-lg mb-8 text-on-background">
+      <div className="grid lg:grid-cols-2 gap-12 sm:gap-16 lg:gap-20">
+        <Reveal className="text-center lg:text-left">
+          <h2 className="font-display text-headline-lg-mobile sm:text-headline-lg mb-6 sm:mb-8 text-on-background">
             Architecting the future of web &amp; artificial intelligence.
           </h2>
           <p className="font-body-md text-body-md text-on-surface-variant mb-6">
@@ -26,8 +26,8 @@ export default function About() {
           </p>
         </Reveal>
 
-        <Reveal delay={200} className="space-y-6">
-          <div className="glass-card p-8 rounded-xl bento-inner-glow bg-surface-container-lowest">
+        <Reveal delay={200} className="space-y-5 sm:space-y-6">
+          <div className="glass-card p-6 sm:p-8 rounded-xl bento-inner-glow bg-surface-container-lowest">
             <div className="flex items-center gap-3 text-primary mb-4">
               <Icon name="construction" />
               <span className="font-label-sm text-label-sm uppercase">
@@ -35,7 +35,7 @@ export default function About() {
               </span>
             </div>
             <ul className="space-y-3">
-              <li className="flex justify-between items-center">
+              <li className="flex flex-wrap justify-between items-center gap-x-3 gap-y-1">
                 <span className="font-headline-md text-body-md text-on-background">
                   AI Resume Analyzer
                 </span>
@@ -43,7 +43,7 @@ export default function About() {
                   In Progress
                 </span>
               </li>
-              <li className="flex justify-between items-center">
+              <li className="flex flex-wrap justify-between items-center gap-x-3 gap-y-1">
                 <span className="font-headline-md text-body-md text-on-background">
                   IKLC Website
                 </span>
@@ -54,14 +54,14 @@ export default function About() {
             </ul>
           </div>
 
-          <div className="glass-card p-8 rounded-xl bento-inner-glow bg-surface-container-lowest">
+          <div className="glass-card p-6 sm:p-8 rounded-xl bento-inner-glow bg-surface-container-lowest">
             <div className="flex items-center gap-3 text-primary mb-4">
               <Icon name="diamond" />
               <span className="font-label-sm text-label-sm uppercase">
                 Core Values
               </span>
             </div>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-2 sm:gap-3">
               {[
                 "Problem Solver",
                 "Communication",
@@ -72,7 +72,7 @@ export default function About() {
               ].map((value) => (
                 <span
                   key={value}
-                  className="px-4 py-2 bg-surface-container-low border border-outline-variant/30 text-on-surface-variant rounded-full text-label-sm font-label-sm"
+                  className="px-3 py-1.5 sm:px-4 sm:py-2 bg-surface-container-low border border-outline-variant/30 text-on-surface-variant rounded-full text-label-sm font-label-sm"
                 >
                   {value}
                 </span>
