@@ -23,7 +23,7 @@ function TechList() {
 
 export default function TechMarquee() {
   return (
-    <div className="w-full border-y border-outline-variant/30 bg-surface-container-low py-10 overflow-hidden">
+    <div className="w-screen border-y border-outline-variant/30 bg-surface-container-low py-10 overflow-hidden">
       <div className="flex w-[200%] animate-marquee">
         {/* Rendered twice back-to-back so the CSS loop is seamless */}
         <TechList />
