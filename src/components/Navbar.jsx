@@ -1,14 +1,12 @@
 import { useEffect, useState } from "react";
 import { navLinks } from "../data/navLinks.js";
 import { useActiveSection } from "../hooks/useActiveSection.js";
-import { useTheme } from "../hooks/useTheme.js";
 import Icon from "./Icon.jsx";
 
 const SECTION_IDS = navLinks.map((link) => link.href.replace("#", ""));
 
-export default function Navbar() {
+export default function Navbar({ theme, toggleTheme }) {
   const activeId = useActiveSection(SECTION_IDS);
-  const { theme, toggleTheme } = useTheme();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Close the mobile menu whenever the route/hash changes (i.e. the

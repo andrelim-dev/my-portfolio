@@ -14,39 +14,39 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-32 px-margin-desktop max-w-container-max mx-auto"
+      className="py-20 sm:py-24 lg:py-32 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto"
     >
-      <div className="grid lg:grid-cols-2 gap-20">
+      <div className="grid lg:grid-cols-2 gap-14 sm:gap-16 lg:gap-20">
         <Reveal>
-          <h2 className="font-display text-headline-lg mb-8 text-on-background">
+          <h2 className="font-display text-headline-md sm:text-headline-lg mb-6 sm:mb-8 text-on-background">
             Let&apos;s collaborate on something extraordinary.
           </h2>
-          <p className="text-on-surface-variant mb-12">
+          <p className="text-on-surface-variant mb-8 sm:mb-10 lg:mb-12">
             I am currently looking for AI engineering internships and freelance
             opportunities. Feel free to reach out via the form or through my
             social networks.
           </p>
 
-          <div className="space-y-8">
-            <div className="flex items-center gap-6">
-              <div className="w-12 h-12 glass-card rounded-full flex items-center justify-center bg-white border border-outline-variant/30">
+          <div className="space-y-6 sm:space-y-8">
+            <div className="flex items-center gap-4 sm:gap-6">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 shrink-0 glass-card rounded-full flex items-center justify-center bg-white border border-outline-variant/30">
                 <Icon name="alternate_email" className="text-on-background" />
               </div>
-              <div>
+              <div className="min-w-0">
                 <div className="text-label-sm font-label-sm text-on-surface-variant uppercase">
                   Email
                 </div>
-                <div className="font-headline-md text-body-md text-on-background">
+                <div className="font-headline-md text-body-md text-on-background wrap-break-words">
                   andrelim865@gmail.com
                 </div>
               </div>
             </div>
 
-            <div className="flex items-center gap-6">
-              <div className="w-12 h-12 glass-card rounded-full flex items-center justify-center bg-white border border-outline-variant/30">
+            <div className="flex items-center gap-4 sm:gap-6">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 shrink-0 glass-card rounded-full flex items-center justify-center bg-white border border-outline-variant/30">
                 <Icon name="location_on" className="text-on-background" />
               </div>
-              <div>
+              <div className="min-w-0">
                 <div className="text-label-sm font-label-sm text-on-surface-variant uppercase">
                   Location
                 </div>
@@ -57,7 +57,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="flex gap-4 mt-16">
+          <div className="flex flex-wrap gap-3 sm:gap-4 mt-10 sm:mt-12 lg:mt-16">
             {socials.map((social) => (
               <a
                 key={social.platform}

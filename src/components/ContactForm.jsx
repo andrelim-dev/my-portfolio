@@ -1,17 +1,13 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
-import {
-  FloatingLabelInput,
-  FloatingLabelTextarea,
-} from "./FloatingLabelInput.jsx";
+import { FloatingLabelInput, FloatingLabelTextarea } from "./FloatingLabel.jsx";
 
 const initialState = { name: "", email: "", subject: "", message: "" };
 
 export default function ContactForm() {
   const [form, setForm] = useState(initialState);
   const [loading, setLoading] = useState(false);
-  // const [status, setStatus] = useState("idle"); // idle | sent
 
   const handleChange = (field) => (event) => {
     setForm((prev) => ({ ...prev, [field]: event.target.value }));
@@ -37,7 +33,6 @@ export default function ContactForm() {
 
       toast.success("Message sent successfully!");
 
-      // setStatus("sent");
       setForm(initialState);
     } catch (error) {
       toast.error("Failed to send message.");
@@ -47,7 +42,10 @@ export default function ContactForm() {
   };
 
   return (
-    <form className="space-y-12" onSubmit={handleSubmit}>
+    <form
+      className="space-y-10 sm:space-y-12 lg:space-y-14"
+      onSubmit={handleSubmit}
+    >
       <FloatingLabelInput
         id="name"
         label="Name"
@@ -79,9 +77,8 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={loading}
-        className="w-full py-5 bg-on-background text-background font-bold rounded-lg hover:opacity-90 active:scale-95 transition-all font-label-sm text-label-sm"
+        className="w-full py-4 sm:py-5 bg-on-background text-background font-bold rounded-lg hover:opacity-90 active:scale-95 transition-all font-label-sm text-label-sm disabled:opacity-60 disabled:active:scale-100"
       >
-        {/* {status === "sent" ? "MESSAGE SENT" : "SEND MESSAGE"} */}
         {loading ? "SENDING..." : "SEND MESSAGE"}
       </button>
     </form>

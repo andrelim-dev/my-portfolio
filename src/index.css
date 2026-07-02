@@ -270,3 +270,10 @@
     animation: none;
   }
 }
+
+@media (max-width: 640px) {
+  .Toastify__toast {
+    border-radius: 0.4rem !important;
+    margin: 0 auto !important;
+  }
+}

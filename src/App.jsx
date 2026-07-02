@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ToastContainer, Bounce } from "react-toastify";
+import { useTheme } from "./hooks/useTheme.js";
 import { useScrollReveal } from "./hooks/useScrollReveal.js";
 
 import Navbar from "./components/Navbar.jsx";
@@ -14,7 +15,7 @@ import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 
 export default function App() {
-  const [theme, setTheme] = useState(localStorage.getItem("theme"));
+  const { theme, toggleTheme } = useTheme();
 
   // Attaches the IntersectionObserver once at the app root so every
   // `.reveal` element rendered by any section gets animated in on scroll.
@@ -22,7 +23,7 @@ export default function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar theme={theme} toggleTheme={toggleTheme} />
       <main className="relative z-10 pt-20">
         <Hero />
         <TechMarquee />
@@ -47,6 +48,7 @@ export default function App() {
         pauseOnHover={false}
         theme={theme}
         transition={Bounce}
+        toastClassName="w-[calc(100vw-3rem)]! sm:max-w-xs! px-2! sm:px-4! top-4! sm:top-0!"
       />
     </>
   );
