@@ -37,7 +37,7 @@ export default function Contact() {
                   Email
                 </div>
                 <div className="font-headline-md text-body-md text-on-background wrap-break-words">
-                  andrelim865@gmail.com
+                  andrelim765@gmail.com
                 </div>
               </div>
             </div>
