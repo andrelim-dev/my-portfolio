@@ -5,21 +5,21 @@
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"></a>
-  <a href="#"><img src="https://img.shields.io/badge/EmailJS-FFB000?style=for-the-badge" alt="EmailJS"></a>
-  <a href="#"><img src="https://img.shields.io/badge/React_Toastify-FF6B6B?style=for-the-badge" alt="React Toastify"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Iconify-1769AA?style=for-the-badge" alt="Iconify"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"></a>
+  <a href="https://vite.dev/"><img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"></a>
+  <a href="https://www.emailjs.com/"><img src="https://img.shields.io/badge/EmailJS-FFB000?style=for-the-badge" alt="EmailJS"></a>
+  <a href="https://fkhadra.github.io/react-toastify/introduction/"><img src="https://img.shields.io/badge/React_Toastify-FF6B6B?style=for-the-badge" alt="React Toastify"></a>
+  <a href="https://iconify.design/docs/icon-components/react/"><img src="https://img.shields.io/badge/Iconify-1769AA?style=for-the-badge" alt="Iconify"></a>
+  <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"></a>
 </p>
 
 <p align="center">
   <a href="https://andre-five.vercel.app/">Live Demo</a>
   ·
-  <a href="mailto:andrelim865@gmail.com?subject=Bug%20Report">Report Bug</a>
+  <a href="mailto:andrelim765@gmail.com?subject=Bug%20Report">Report Bug</a>
   ·
-  <a href="mailto:andrelim865@gmail.com?subject=Feature%20Request">Request Feature</a>
+  <a href="mailto:andrelim765@gmail.com?subject=Feature%20Request">Request Feature</a>
 </p>
 
 ---
@@ -201,7 +201,7 @@ Feel free to use this project as inspiration for your own portfolio.
 
 - 🌐 Portfolio: https://andre-five.vercel.app/
 - 💼 LinkedIn: https://www.linkedin.com/in/andre-lim-28a246285/
-- 📧 Email: andrelim865@gmail.com
+- 📧 Email: andrelim765@gmail.com
 
 ---
 
