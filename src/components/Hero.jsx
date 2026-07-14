@@ -3,7 +3,7 @@ import Reveal from "./Reveal.jsx";
 const stats = [
   { value: "5+", label: "Projects" },
   { value: "12+", label: "Tech Stack" },
-  { value: "4+", label: "Certs" },
+  { value: "8+", label: "Certs" },
 ];
 
 export default function Hero() {
