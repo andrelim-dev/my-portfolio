@@ -1,7 +1,7 @@
 export const education = [
   {
     id: "universitas-sumatera-utara",
-    period: "2023 - Present",
+    period: "Jun 2023 - Present",
     title: "Bachelor of Computer Science",
     org: "Universitas Sumatera Utara",
     tags: [
@@ -18,7 +18,7 @@ export const education = [
   },
   {
     id: "ai-engineering",
-    period: "2026",
+    period: "Feb 2026 - Jul 2026",
     title: "AI Engineering Specialization",
     org: "Coding Camp powered by DBS Foundation",
     tags: [
@@ -33,7 +33,7 @@ export const education = [
   },
   {
     id: "react",
-    period: "2024 - 2025",
+    period: "Sep 2024 - Jun 2025",
     title: "React Specialization",
     org: "IDCamp",
     tags: [
