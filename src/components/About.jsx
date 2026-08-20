@@ -37,7 +37,7 @@ export default function About() {
             <ul className="space-y-3">
               <li className="flex flex-wrap justify-between items-center gap-x-3 gap-y-1">
                 <span className="font-headline-md text-body-md text-on-background">
-                  AI Resume Analyzer
+                  Resolve
                 </span>
                 <span className="text-on-surface-variant text-label-sm font-label-sm">
                   In Progress
