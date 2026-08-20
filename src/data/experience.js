@@ -9,13 +9,22 @@ export const experience = [
     current: true,
   },
   {
+    id: "information-publication-division-member",
+    period: "Aug 2025 - Present",
+    role: "Information and Publication Division Member",
+    org: "IKLC USU",
+    description:
+      "Created social media content, maintained visual consistency with the organization's design system, and supported effective digital communication.",
+    current: true,
+  },
+  {
     id: "information-publication-division-lead",
-    period: "Feb 2026 - Present",
+    period: "Feb 2026 - Aug 2026",
     role: "Information and Publication Division Lead",
     org: "IKLC USU",
     description:
       "Led the Information and Publication Division, overseeing digital content strategy and developing the MVP of the IKLC website.",
-    current: true,
+    current: false,
   },
   {
     id: "oop-coordinator",
@@ -24,15 +33,6 @@ export const experience = [
     org: "IKLC USU",
     description:
       "Developed Spring Boot practicum materials, taught Object-Oriented Programming to four classes, and evaluated students' assignments and projects.",
-    current: false,
-  },
-  {
-    id: "information-publication-division-member",
-    period: "Aug 2025 - Feb 2026",
-    role: "Information and Publication Division Member",
-    org: "IKLC USU",
-    description:
-      "Created social media content, maintained visual consistency with the organization's design system, and supported effective digital communication.",
     current: false,
   },
   {
