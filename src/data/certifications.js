@@ -1,5 +1,12 @@
 export const certifications = [
   {
+    id: "generative-ai-llm",
+    icon: "smart_toy",
+    title: "Generative AI with Large Language Models",
+    issuer: "Dicoding Indonesia",
+    href: "https://www.dicoding.com/certificates/JMZVOY6LQXN9",
+  },
+  {
     id: "advanced-deep-learning",
     icon: "neurology",
     title: "Advanced Deep Learning",
@@ -47,12 +54,5 @@ export const certifications = [
     title: "Front-End Web Development",
     issuer: "Dicoding Indonesia",
     href: "https://www.dicoding.com/certificates/81P246LQNZOY",
-  },
-  {
-    id: "web-programming-fundamentals",
-    icon: "language",
-    title: "Web Programming Fundamentals",
-    issuer: "Dicoding Indonesia",
-    href: "https://www.dicoding.com/certificates/NVP74Y8WGPR0",
   },
 ];
